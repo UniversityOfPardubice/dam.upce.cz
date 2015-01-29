@@ -7,3 +7,6 @@ local.php
 # http://codex.galleryproject.org/Gallery3:Using_Vagrant
 Vagrantfile
 .vagrant
+
+cms2
+promoce
