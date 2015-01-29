@@ -1,0 +1,7 @@
+name = "Auth UPCE"
+description = "Authorisation via UPCE."
+version = 1
+author_name = "Lukas Slansky (UPCE)"
+author_url = "http://www.upce.cz/"
+info_url = "http://www.upce.cz/"
+discuss_url = "http://www.upce.cz/"

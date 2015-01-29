@@ -1,0 +1,3 @@
+name = "JQuery integration"
+description = "Adds jQuery from CDN"
+version = 1

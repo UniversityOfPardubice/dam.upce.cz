@@ -61,6 +61,11 @@ class rest_Core {
       }
       break;
 
+    case "xml":
+        header("Content-Type: text/xml; charset=UTF-8");
+        print xml::to_xml($data, array("response", "item"));
+        break;
+
     default:
       throw new Rest_Exception("Bad Request", 400);
     }

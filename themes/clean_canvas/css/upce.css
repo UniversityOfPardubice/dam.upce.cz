@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,400italic,700italic&subset=latin,latin-ext);
+body, html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+#g-banner-languages {
+    position: relative;
+    margin-right: 2em;
+    margin-top: -1.25em;
+    right: auto;
+}
+
+#g-site-menu ul li a {
+    color: white !important;
+}
+
+#g-site-menu ul li a:hover {
+    color: white !important;
+}
+
+#g-site-menu ul,
+#g-site-menu ul li:hover,
+#g-site-menu ul li ul {
+    background-color: #f42710 !important;
+}
+
+#g-site-menu ul li ul li:hover, #g-site-menu a:hover, #g-site-menu a:active, #g-site-menu a:focus {
+    background-color: #e40613 !important;
+}

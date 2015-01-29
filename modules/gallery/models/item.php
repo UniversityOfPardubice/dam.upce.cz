@@ -783,7 +783,8 @@ class Item_Model_Core extends ORM_MPTT {
       // Note that the extension list below is hard-coded and doesn't use the legal_file helper
       // since anything else will not work in Flowplayer v3.
       if (in_array(strtolower(pathinfo($movie_img->filename, PATHINFO_EXTENSION)),
-                   array("flv", "mp4", "m4v", "mov", "f4v"))) {
+                   array("flv", "mp4", "m4v", "mov", "f4v",
+                	"webm", "ogv", "ts", "mts", "m2ts", "mpe", "mpeg", "mpg", "m1v", "m2v", "mp4v", "mpg4", "qt", "wmv", "avi", "asf", "3gp", "3g2", "mp3"))) {//LSL
         // Filetype supported by Flowplayer v3 - use it (default)
         $view = new View("movieplayer.html");
         $view->max_size = $movie_img->max_size;

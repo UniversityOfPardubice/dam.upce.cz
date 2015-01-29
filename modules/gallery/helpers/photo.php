@@ -101,6 +101,7 @@ class photo_Core {
    */
   static function get_file_metadata($file_path) {
     if (!is_readable($file_path)) {
+      return array(0, 0, '', '');
       throw new Exception("@todo UNREADABLE_FILE");
     }
 
